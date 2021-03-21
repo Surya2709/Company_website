@@ -7,5 +7,9 @@ app = Flask(__name__)
 def home():
     return("hello")
 
+
+def about():
+    return "hello"
+
 if __name__ == '__main__':
     app.run()
